@@ -11,7 +11,7 @@ UPDATE_PYTHON=0
 VERBOSE=0
 USE_ROCKSDB=1
 ELECTRUMX_GIT_URL="https://github.com/widecoin-project/electrumx"
-ELECTRUMX_GIT_BRANCH="0.9.0"
+ELECTRUMX_GIT_BRANCH=""
 
 installer=$(realpath $0)
 
