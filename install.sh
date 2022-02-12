@@ -173,7 +173,7 @@ if [ $UPDATE_ONLY == 0 ] || [ $UPDATE_PYTHON == 1 ]; then
 	else
 		_status "Installing Python 3.9"
 		python=python3.9
-		install_python39
+		#install_python39
 		if [[ $($python -V 2>&1) == *"Python 3.9"* ]] > /dev/null 2>&1; then
 			_info "Python 3.9 successfully installed"
 		else
